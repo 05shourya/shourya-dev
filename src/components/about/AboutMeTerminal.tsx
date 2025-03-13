@@ -12,7 +12,7 @@ const AboutMeTerminal = () => {
                     className="text-gray-800 dark:text-white font-bold"
                     duration={40}
                 >
-                    % echo &dlquo;Shourya Gupta&dlquo;
+                    {`% echo "Shourya Gupta"`}
                 </TypingAnimation>
 
                 {/* Output: Name & Description */}
