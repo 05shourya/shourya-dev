@@ -71,7 +71,7 @@ const Profile = () => {
                     <RainbowButton
                         onClick={() =>
                             window.open(
-                                "mailto:05shourya@gmail.com?subject=Job Inquiry"
+                                "mailto:shouryag.dev@gmail.com?subject=Job Inquiry"
                             )
                         }
                     >
