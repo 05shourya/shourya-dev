@@ -19,7 +19,35 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Shourya Gupta",
-    description: "Portfolio",
+    description:
+        "Explore the portfolio of Shourya Gupta – a full stack developer skilled in React, Next.js, Java, and Spring Boot. Building elegant, performant web experiences.",
+    keywords: [
+        "Shourya Gupta",
+        "Full Stack Developer",
+        "Java Developer",
+        "React Developer",
+        "Spring Boot",
+        "Next.js",
+        "Web Developer Portfolio",
+    ],
+    authors: [{ name: "Shourya Gupta", url: "https://your-domain.com" }],
+    creator: "Shourya Gupta",
+    metadataBase: new URL("https://your-domain.com"),
+    openGraph: {
+        title: "Shourya Gupta",
+        description:
+            "Check out the portfolio of Shourya Gupta – full stack developer passionate about building modern web applications.",
+        url: "https://your-domain.com",
+        siteName: "Shourya Gupta",
+        locale: "en_US",
+        type: "website",
+    },
+    twitter: {
+        card: "summary",
+        title: "Shourya Gupta",
+        description:
+            "Portfolio of Shourya Gupta – showcasing projects and skills in React, Java, Spring Boot, and more.",
+    },
 };
 
 export default function RootLayout({
@@ -30,7 +58,6 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <title>Shourya Gupta</title>
                 <link
                     rel="apple-touch-icon"
                     sizes="57x57"
